@@ -9,6 +9,8 @@
     <!--Links-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet"/>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
 
     <!-- Agregar metaetiquetas para SEO -->
     <meta name="description" content="Tú rutina y comida al instante, con el mejor precio."/>
@@ -17,6 +19,8 @@
     <link rel="icon" type="image/png" href="img/logo.png">
 </head>
 <body>
+
+    <!--=============== NAV ===============-->
     <nav>
         <div class="nav__header">
             <div class="nav__logo">
@@ -30,21 +34,381 @@
             </div>
         </div>
         <ul class="nav__links" id="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Package</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-us">About us</a></li>
             <li><a href="#">Menu</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="#">Package</a></li>
+
+            <li><a href="#contact">Contact</a></li>
         </ul>
         <div class="nav__btns">
             <button class="btn order"><i class="ri-shopping-cart-2-line"></i></button>
-            <button class="btn sign__up">Sing Up</button>
+            <button class="btn sign__up">Sign Up</button>
         </div>
     </nav>
-    <div>
 
+    <!--=============== HOME ===============-->
+
+    <div class="section__container header__container" id="home">
+        <div class="header__image">
+            <img src="img/header.PNG" alt="header" />
+        </div>
+        <div class="header__content">
+            <h1>NAXUS</h1>
+            <h2><span class="span1">N</span>utri<span class="span2">S</span>end</h2>
+            <p class="section__description">Your routine and food instantly, at the best price.</p>
+            <div class="header__btns">
+                <button class="btn">Start Now</button>
+            </div>
+        </div>
     </div>
 
+    <!--=============== ABOUT 1 ===============-->
+    <section class="about__section" id="about-us">
+        <div class="about__content">
+            <h2 class="section__subheader" >About Us</h2>
+            <p>NAXUS is a startup created by UPC students that simplifies meal planning with NutriSend. Our platform delivers the best healthy meals instantly, ideal for busy people and those following strict eating plans. In addition, we provide personalized exercise routines to complement your diet and support a healthy lifestyle.</p>
+        </div>
+        <div class="about__image">
+            <img src="img/about.jpeg" alt="about">
+        </div>
+    </section>
+
+    <!--=============== ABOUT 2 ===============-->
+
+    <section class="section__container experience__container" >
+        <h2 class="section__header">Discover what you eat</h2>
+        <div class="experience__content">
+            <div class="experience__card">
+                <img src="img/Calories.PNG" alt="exp">
+                <h4>Calories</h4>
+                <p>436 kcal</p>
+            </div>
+            <div class="experience__card">
+                <img src="img/Proteins.PNG" alt="exp">
+                <h4>Proteins</h4>
+                <p>30 g</p>
+            </div>
+            <div class="experience__card">
+                <img src="img/Fats.PNG" alt="exp">
+                <h4>Fats</h4>
+                <p>20.7 g</p>
+            </div>
+            <div class="experience__card">
+                <img src="img/Carbohydrates.PNG" alt="exp">
+                <h4>Carbohydrates</h4>
+                <p>40.9 g</p>
+            </div>
+            <img src="img/about.PNG" alt="experience" />
+        </div>
+    </section>
+
+
+    <!--=============== MENU ===============-->
+
+    <section class="section__container arrival__container" id="menu">
+        <h2 class="section__header">Our plates</h2>
+        <div class="arrival__grid">
+            <div class="arrival__card">
+                <span>NEW</span>
+                <img src="img/eje1.jpeg" alt="ejercicio" />
+                <h4>Bar strength exercise pack.</h4>
+                <p>$20</p>
+                <button class="btn read__more">READ MORE</button>
+                <button class="btn add__cart">ADD</button>
+            </div>
+            <div class="arrival__card">
+                <img src="img/eje2.jpeg" alt="ejercicio" />
+                <h4>“Burpee” exercise pack.</h4>
+                <p>$20</p>
+                <button class="btn read__more">READ MORE</button>
+                <button class="btn add__cart">ADD</button>
+            </div>
+            <div class="arrival__card">
+                <span>NEW</span>
+                <img src="img/eje3.jpeg" alt="ejercicio" />
+                <h4>Side plank exercise pack.</h4>
+                <p>$28</p>
+                <button class="btn read__more">READ MORE</button>
+                <button class="btn add__cart">ADD</button>
+            </div>
+            <div class="arrival__card">
+                <img src="img/eje4.jpeg" alt="ejercicio" />
+                <h4>Lower body exercise pack.</h4>
+                <p>$20</p>
+                <button class="btn read__more">READ MORE</button>
+                <button class="btn add__cart">ADD</button>
+            </div>
+        </div>
+
+        <section class="section__container feature__container" id="product">
+            <div class="feature__grid">
+                <div class="feature__card">
+                    <img src="img/plato1.jpeg" alt="plato" />
+                    <h4>Quinoa and vegetable salad</h4>
+                    <p>Calories:  300kcal</p>
+                    <p>Proteins:  10g</p>
+                    <p>Fats:  12g</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="feature__card">
+                    <img src="img/plato2.jpeg" alt="plato" />
+                    <h4>Grilled salmon with steamed asparagus</h4>
+                    <p>Calories:  350kcal</p>
+                    <p>Proteins:  30g</p>
+                    <p>Fats:  20g</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="feature__card">
+                    <img src="img/plato3.jpeg" alt="plato" />
+                    <h4>Grilled chicken wrap with avocado and vegetables</h4>
+                    <p>Calories:  400kcal</p>
+                    <p>Proteins:  25g</p>
+                    <p>Fats:  18g</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="feature__card">
+                    <img src="img/plato4.jpeg" alt="plato" />
+                    <h4>Greek yogurt bowl with fruit and granola</h4>
+                    <p>Calories:  250kcal</p>
+                    <p>Proteins:  15g</p>
+                    <p>Fats:  8g</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="feature__card">
+                    <img src="img/plato5.jpg" alt="plato" />
+                    <h4>Egg white omelet with spinach and mushrooms</h4>
+                    <p>Calories:  200kcal</p>
+                    <p>Proteins:  20g</p>
+                    <p>Fats:  10g</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+                <div class="feature__card">
+                    <img src="img/plato6.jpeg" alt="plato" />
+                    <h4>Grilled chicken breast with steamed broccoli</h4>
+                    <p>Calories:  300kcal</p>
+                    <p>Proteins:  25g</p>
+                    <p>Fats:  10g</p>
+                    <button class="btn">ADD TO CART</button>
+                </div>
+
+            </div>
+        </section>
+    </section>
+
+    <!--=============== PACKAGE ===============-->
+
+    <section class="membership">
+        <div class="section__container membership__container">
+            <h2 class="section__header">Select your ideal plan</h2>
+            <div class="membership__grid">
+                <div class="membership__card">
+                    <h4>NutriSend</h4>
+                    <span class="free">Free</span>
+                    <ul>
+                        <li>
+                            <span><i class="ri-check-line"></i></span>
+                            Functionality: Allows users to plan and order groceries for the week.
+                        </li>
+                        <li>
+                            <span><i class="ri-check-line"></i></span>
+                            Benefits: Access to basic recipes, automated weekly shopping list, and general dietary recommendations.
+                        </li>
+                    </ul>
+                    <h3><sup>$</sup>0.00<span>/month</span></h3>
+                    <button class="btn btn__primary">ADD</button>
+                </div>
+                <div class="membership__card">
+                    <h4>NutriSend</h4>
+                    <span class="premium">Premium</span>
+                    <ul>
+                        <li>
+                            <span><i class="ri-check-line"></i></span>
+                            Functionality: Offers the complete and personalized experience for users with specific long-term planning needs.
+                        </li>
+                        <li>
+                            <span><i class="ri-check-line"></i></span>
+                            Benefits:
+                            Planning and ordering food for the entire month, with automatic adjustments based on the user's nutritional needs.
+                        </li>
+                        <li>
+                            <span><i class="ri-check-line"></i></span>
+                            Benefits: Personalized menus that dynamically adjust based on the user's exercise regime, health goals, and food availability
+                        </li>
+                        <li>
+                            <span><i class="ri-check-line"></i></span>
+                            Benefits: Advanced alerts that indicate the optimal time to consume food, synchronized with the sports schedule and other health habits.
+                        </li>
+                        <li>
+                            <span><i class="ri-check-line"></i></span>
+                            Benefits: Priority support and access to exclusive content, such as recipes from renowned chefs or nutritionists.
+                        </li>
+                    </ul>
+                    <h3><sup>$</sup>20.00<span>/month</span></h3>
+                    <button class="btn btn__primary">ADD</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--=============== CUSTOMERS ===============-->
+
+    <section class="section__container client__container">
+        <h2 class="section__header">What our customers saying</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="client__card">
+                        <div class="client__content">
+                            <div class="client__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>
+                            <p>
+                                I am thrilled with the experience this healthy meal delivery app offers! Since I started using it, my life has become so much easier and healthier. The meals are delicious, well-balanced, and always arrive on time. I highly recommend it to anyone looking to improve their diet without the hassle!</p>
+                        </div>
+                        <div class="client__details">
+                            <img src="img/c1.jpeg" alt="client" />
+                            <div>
+                                <h4>John Adams</h4>
+                                <h5>Travel Blogger</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client__card">
+                        <div class="client__content">
+                            <div class="client__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>
+                            <p>
+                            I am thrilled with the experience this healthy meal delivery app offers! Since I started using it, my life has become so much easier and healthier. The meals are delicious, well-balanced, and always arrive on time. I highly recommend it to anyone looking to improve their diet without the hassle!</p>
+                        </div>
+                        <div class="client__details">
+                            <img src="img/c1.jpeg" alt="client" />
+                            <div>
+                                <h4>Emily Thompson</h4>
+                                <h5>Adventure Enthusiast</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client__card">
+                        <div class="client__content">
+                            <div class="client__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>
+                            <p>
+                                I am thrilled with the experience this healthy meal delivery app offers! Since I started using it, my life has become so much easier and healthier. The meals are delicious, well-balanced, and always arrive on time. I highly recommend it to anyone looking to improve their diet without the hassle!</p>
+                        </div>
+                        <div class="client__details">
+                            <img src="img/c1.jpeg" alt="client" />
+                            <div>
+                                <h4>Sarah Lee</h4>
+                                <h5>Cultural Historian</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="client__card">
+                        <div class="client__content">
+                            <div class="client__rating">
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                                <span><i class="ri-star-fill"></i></span>
+                            </div>
+                            <p>
+                                I am thrilled with the experience this healthy meal delivery app offers! Since I started using it, my life has become so much easier and healthier. The meals are delicious, well-balanced, and always arrive on time. I highly recommend it to anyone looking to improve their diet without the hassle!</p>
+                        </div>
+                        <div class="client__details">
+                            <img src="img/c1.jpeg" alt="client" />
+                            <div>
+                                <h4>David Patel</h4>
+                                <h5>Business Executive</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--=============== CHEF ===============-->
+
+    <section class="section__container chef__container">
+        <div class="chef__image">
+            <img src="img/chef.PNG" alt="chef" />
+        </div>
+        <div class="chef__content">
+            <h2 class="section__header">Cooked By The Best Chefs In The World</h2>
+            <p class="section__subheader">Chef Sofia Laurent</p>
+            <p class="section__description">
+                With over 25 years of experience in fine dining, Sofia Laurent is an award-winning chef who has revolutionized gastronomy worldwide. Originally from Lyon, France, Sofia has been recognized for her innovative approach to traditional French cuisine, fusing it with modern techniques and international flavors.
+            </p>
+        </div>
+    </section>
+
+
+
+    <!--=============== CONTAC US ===============-->
+
+    <section class="section__container contact__container" id="contact">
+        <h2 class="section__header">Contact us</h2>
+        <p class="section__description">
+            Do you have any questions about our web platform? Do not hesitate to contact us.
+        </p>
+        <form action="/">
+            <input type="text" placeholder="Full name" />
+            <input type="text" placeholder="Your email" />
+            <input type="text" placeholder="Phone number" />
+            <input type="text" placeholder="Title" />
+            <textarea placeholder="Message"></textarea>
+            <button class="btn">Submit Message</button>
+        </form>
+    </section>
+
+    <!--=============== FOOTER ===============-->
+
+    <footer class="section__container footer__container">
+        <p>Copyright © 2024 NAXUS.</p>
+        <ul class="footer__socials">
+            <li>
+                <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="ri-twitter-fill"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+            <li>
+                <a href="#"><i class="ri-google-fill"></i></a>
+            </li>
+        </ul>
+    </footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="main.js"></script>
+
 </body>
 </html>
