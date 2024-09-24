@@ -705,6 +705,7 @@ nav {
     gap: 2rem;
     flex-direction: column;
     background-color: var(--primary-color);
+    width: 100%;
 }
 
 .footer__container p {
