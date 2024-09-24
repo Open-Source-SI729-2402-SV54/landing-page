@@ -78,6 +78,9 @@ ul{
 
 html,
 body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
 }
 body {
@@ -707,6 +710,7 @@ nav {
     background-color: var(--primary-color);
     width: 100%;
     margin-top: auto;
+    padding: 20px 0;
 }
 
 .footer__container p {
